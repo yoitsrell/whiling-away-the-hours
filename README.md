@@ -1,6 +1,8 @@
 # Num Loops
 
 ### Setup
+########For this exercise we don't need to run npm test. We will only use the command 
+`node main.js` in the terminal to see the results of our functions. 
 
 Write a function that, given a number, prints a string in the following format, with n replaced by the number:
 

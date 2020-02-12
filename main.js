@@ -1,8 +1,3 @@
-function exampleFunction() {
-
-}
-
-
-module.exports = {
-  exampleFunction,
+function challengeBanner(n) {
+  console.log(`######### Challenge ${n} #########`)
 }
