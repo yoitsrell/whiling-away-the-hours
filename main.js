@@ -137,18 +137,43 @@ function printHello2(newText){
     let hello2 = 1
 
     while (hello2 <= 7){
-        console.log((hello2) + ' ' + newText)
+        console.log((hello2) + (' ' + newText))
         hello2 = hello2 + 1
     }
 }
 
-printHello2()
+printHello2('NEW')
 
 makeBanner(11)
 
+function multiWord(newText2, insert1){
+    let insert2 = 0
 
+    while(insert2 <= insert1){
+        console.log (newText2)
+        insert2 = insert2 + 1
+    }
+}
+
+multiWord('"Good-bye..."', 4)
 
 
 makeBanner(12)
 
-//function 
+// //function separateWord(sepWord){ creates loop, not sure why
+//     let sep1 = 1
+
+//     while(sep1 < sepWord.length){
+//         console.log(sepWord[sep1])
+//         sepWord = sepWord + 1
+//     }
+
+// }
+
+//separateWord('print')
+
+makeBanner(13)
+
+
+
+makeBanner(14)
